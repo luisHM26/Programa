@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@700&display=swap");
+
+/* menu nav */
+:root {
+  --background-color: #d6eaf8;
+  --font-family: "Raleway", serif;
+  --font-famliy-secundaria: "Lato", sans-serif;
+}
+
+.container-nav {
+  background-color: white !important;
+  margin: 4em;
+}
+
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  padding-left: 1em;
+}
+
+.navbar-nav li {
+  font-size: 20px;
+  margin: 0 4em 0 0;
+  padding-left: 1em;
+  font-family: var(--font-family);
+}
+
+/* carousel y logo */
+
+.carousel-item {
+  opacity: 70%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* nosotros */
+.fotos {
+  padding: 0;
+  margin: 0;
+}
+
+.nosotros {
+  padding: 2em;
+}
+
+.text-nosotros {
+  margin-top: 1em;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.nosotros h2 {
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+}
+
+/* platos destacados */
+
+.container-destacados {
+  padding: 2em;
+  margin-top: 2em;
+  background-color: var(--background-color);
+  font-size: 17px;
+}
+
+.card {
+  margin: 1em;
+}
+
+/* carta */
+
+.menu {
+  margin: 0;
+  padding: 1.5em 0;
+  font-size: 16px;
+}
+
+.grid {
+  margin: 0;
+  position: relative;
+}
+
+span.precios {
+  position: absolute;
+  right: 0;
+  top: 7px;
+}
+
+.list-group-item {
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 19px;
+}
+
+.list-group-item p {
+  font-size: 15px;
+  font-style: italic;
+}
+
+/* contacto */
+
+.contacto {
+  margin-top: 2em;
+  padding: 2em;
+  background-color: var(--background-color);
+}
+
+/* generales */
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-family);
+}
+
+p {
+  font-family: var(--font-famliy-secundaria);
+}
